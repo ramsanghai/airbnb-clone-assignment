@@ -1,0 +1,35 @@
+.amenities-section {
+  padding: 32px 0;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.amenities-section h2 {
+  margin-bottom: 24px;
+  font-size: 22px;
+}
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 28px;
+}
+
+.amenity-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+}
+
+.amenities-button {
+  margin-top: 28px;
+  padding: 12px 20px;
+  border: 1px solid #222;
+  border-radius: 8px;
+  background: #fff;
+  font-weight: 700;
+}
+
+.amenities-button:hover {
+  background: var(--grey);
+}

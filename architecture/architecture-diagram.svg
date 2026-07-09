@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="1400" height="760" fill="#fff"/><style>text{font-family:Arial,sans-serif;fill:#222}.t{font-size:26px;font-weight:700}.s{font-size:18px}.b{fill:#f7f7f7;stroke:#222;stroke-width:2;rx:14}.a{stroke:#777;stroke-width:3;marker-end:url(#m)}</style><defs><marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#777"/></marker></defs>
+<text x="700" y="45" text-anchor="middle" class="t">Production-scale Vacation Rental Marketplace</text>
+<rect class="b" x="70" y="120" width="220" height="90"/><text x="180" y="155" text-anchor="middle" class="t">Clients</text><text x="180" y="185" text-anchor="middle" class="s">Web · Mobile</text>
+<rect class="b" x="400" y="120" width="250" height="90"/><text x="525" y="155" text-anchor="middle" class="t">Edge / CDN</text><text x="525" y="185" text-anchor="middle" class="s">WAF · Cache · Images</text>
+<rect class="b" x="770" y="120" width="260" height="90"/><text x="900" y="155" text-anchor="middle" class="t">Frontend</text><text x="900" y="185" text-anchor="middle" class="s">React SSR/SPA · BFF</text>
+<rect class="b" x="1120" y="120" width="220" height="90"/><text x="1230" y="155" text-anchor="middle" class="t">API Gateway</text><text x="1230" y="185" text-anchor="middle" class="s">Auth · Rate limit</text>
+<line class="a" x1="290" y1="165" x2="400" y2="165"/><line class="a" x1="650" y1="165" x2="770" y2="165"/><line class="a" x1="1030" y1="165" x2="1120" y2="165"/>
+<rect class="b" x="90" y="330" width="220" height="100"/><text x="200" y="370" text-anchor="middle" class="t">Listing Service</text><text x="200" y="400" text-anchor="middle" class="s">Catalog · Amenities</text>
+<rect class="b" x="390" y="330" width="220" height="100"/><text x="500" y="370" text-anchor="middle" class="t">Booking Service</text><text x="500" y="400" text-anchor="middle" class="s">Inventory · Pricing</text>
+<rect class="b" x="690" y="330" width="220" height="100"/><text x="800" y="370" text-anchor="middle" class="t">User Service</text><text x="800" y="400" text-anchor="middle" class="s">Identity · Profiles</text>
+<rect class="b" x="990" y="330" width="220" height="100"/><text x="1100" y="370" text-anchor="middle" class="t">Review Service</text><text x="1100" y="400" text-anchor="middle" class="s">Ratings · Moderation</text>
+<line class="a" x1="1230" y1="210" x2="200" y2="330"/><line class="a" x1="1230" y1="210" x2="500" y2="330"/><line class="a" x1="1230" y1="210" x2="800" y2="330"/><line class="a" x1="1230" y1="210" x2="1100" y2="330"/>
+<rect class="b" x="80" y="560" width="220" height="100"/><text x="190" y="600" text-anchor="middle" class="t">SQL Cluster</text><text x="190" y="630" text-anchor="middle" class="s">Bookings · Users</text>
+<rect class="b" x="380" y="560" width="220" height="100"/><text x="490" y="600" text-anchor="middle" class="t">Search</text><text x="490" y="630" text-anchor="middle" class="s">OpenSearch / Geo</text>
+<rect class="b" x="680" y="560" width="220" height="100"/><text x="790" y="600" text-anchor="middle" class="t">Object Storage</text><text x="790" y="630" text-anchor="middle" class="s">Photos · Documents</text>
+<rect class="b" x="980" y="560" width="220" height="100"/><text x="1090" y="600" text-anchor="middle" class="t">Cache / Events</text><text x="1090" y="630" text-anchor="middle" class="s">Redis · Kafka</text>
+<line class="a" x1="200" y1="430" x2="190" y2="560"/><line class="a" x1="200" y1="430" x2="490" y2="560"/><line class="a" x1="500" y1="430" x2="190" y2="560"/><line class="a" x1="800" y1="430" x2="790" y2="560"/><line class="a" x1="1100" y1="430" x2="1090" y2="560"/>
+<text x="700" y="720" text-anchor="middle" class="s">Deploy with containers + Kubernetes, multi-AZ databases, autoscaling, observability and CI/CD</text>
+</svg>

@@ -1,0 +1,63 @@
+.sticky-nav {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  height: 66px;
+  border-bottom: 1px solid var(--line-soft);
+  background: #fff;
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform .25s ease, opacity .25s ease;
+}
+
+.sticky-nav.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sticky-inner {
+  max-width: 1280px;
+  height: 100%;
+  padding: 0 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky-inner nav {
+  display: flex;
+  gap: 4px;
+}
+
+.sticky-inner nav a {
+  padding: 22px 8px;
+  font-weight: 600;
+}
+
+.sticky-booking {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: right;
+}
+
+.sticky-booking small {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.sticky-booking button {
+  height: 40px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--reserve);
+  font-weight: 600;
+}
+.sticky-inner nav a.active { border-bottom: 3px solid #222; }
